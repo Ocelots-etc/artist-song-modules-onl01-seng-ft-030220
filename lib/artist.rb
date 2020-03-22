@@ -19,6 +19,7 @@ class Artist
     @@artists
   end
 
+extend Memorable
 
   def add_song(song)
     @songs << song
