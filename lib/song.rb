@@ -18,7 +18,7 @@ class Song
     @@songs
   end
 
-
+extend Memorable
 
   def artist=(artist)
     @artist = artist
